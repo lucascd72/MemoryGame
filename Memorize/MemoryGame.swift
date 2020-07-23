@@ -14,14 +14,14 @@ struct MemoryGame<CardContent> {
     
    mutating func choose(card: Card) {
         print("choose card \(card)")
-    let chooseIndex: Int = self.index(of: cards)
-    self.cards[chooseIndex].isFaceUp =! self.cards[chooseIndex].isFaceUp
+    let chooseIndex: Int = self.index(of: card)
+    self.cards[chooseIndex].isFaceUp = !self.cards[chooseIndex].isFaceUp
     
     }
     
-    func index(of: cards) -> Int {
+    func index(of card: Card) -> Int {
         for index in 0..<self.cards.count {
-            if cards[index].id == card.id {
+            if self.cards[index].id == card.id {
                 return index
             }
         }

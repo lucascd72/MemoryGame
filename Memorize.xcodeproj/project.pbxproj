@@ -62,8 +62,8 @@
 			children = (
 				15151A9424AD482E009F0D46 /* AppDelegate.swift */,
 				15151A9624AD482E009F0D46 /* SceneDelegate.swift */,
-				15151A9824AD482E009F0D46 /* EmojiMemoryGameView.swift */,
 				151D585724B7382C00A8DBAA /* MemoryGame.swift */,
+				15151A9824AD482E009F0D46 /* EmojiMemoryGameView.swift */,
 				151D585924B739F200A8DBAA /* EmojiMemoryGame.swift */,
 				15151A9A24AD4831009F0D46 /* Assets.xcassets */,
 				15151A9F24AD4831009F0D46 /* LaunchScreen.storyboard */,
